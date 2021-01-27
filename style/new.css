@@ -1,0 +1,271 @@
+.wap{
+
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #222; 
+}
+.clear{
+    clear: both;
+}
+ul,a{
+    text-decoration: none;
+    list-style: none;
+
+}
+nav{
+    width: 1000px;
+    margin: 0 auto;
+    height: 50px;
+}
+.logo{
+    float: left;
+    height: 50px;
+}
+.logo img {
+    padding:7px 15px 7px 15px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav ul li a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #9d9d9d;
+    line-height: 36px;
+    padding: 7px 15px 7px 15px;
+    font-size: 14px;
+    font-family: "Adobe 黑体 Std";
+}
+nav ul .img a{
+    padding: 0px;
+    padding-top: 7px;
+    padding-bottom: -7px;  
+}
+nav ul li a:hover .img{
+    background-color: #000;
+    padding: 0px;
+}
+nav ul li a:hover{
+    background-color: #000;
+    color: white;
+}
+
+nav .lan{
+    float: left;
+    background-color: #222;
+    border: none;
+    font-size: 14px;
+    color: #9d9d9d;
+    padding: 7px 15px 7px 15px;
+    height: 50px;
+    margin-left: 50px;
+    font-family: "Arial";
+}
+/*-------------------------------------------------------------*/
+.box{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.new{
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+.new ul{
+    padding: 0;
+    margin: 0;
+}
+.new ul li a{
+    display: block;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+    height: 178px;
+    width: 302px;
+}
+.a,.b,.c{
+    width: 302px;
+    height: 40px;
+    font-size: 14px;
+    background-color: #000;
+    line-height: 40px;
+    position: absolute;
+    color: white;
+    top: 140px;
+    opacity: 0;
+    text-align: center;
+}
+.new ul li a:hover .a{
+    opacity: 0.7;
+}
+.new ul li a:hover .b{
+    opacity: 0.7;
+}
+.new ul li a:hover .c{
+    opacity: 0.7;
+}
+/*-------------------------------------------------------------*/
+.list{
+    position: relative;
+    height: 170px;
+    width: 100%;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+.list .img{
+    padding:4px;
+    float: left;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+.list .say{
+    float: left;
+    color: #2a2a2a;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.list:hover .say p{
+    color: #ff6900;
+}
+.list .say ul{
+    font-size: 14px;
+    color: #2a2a2a;
+    padding: 0;
+
+}
+.list .say ul li{
+    line-height: 23px;
+}
+.list .list_a{
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+    width: 98px;
+    height: 32px;
+    color: #ff6900;
+    border: 1px solid #ff6900;
+    background-color: white;
+    border-radius: 25px ;
+    position:absolute;
+    right: 30px;
+}
+.list .list_a:hover{
+    color: white;
+    background-color: #ff6900;
+}
+/*--------------------------------*/
+.down{
+    margin: 0 auto;
+    width: 302px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    text-align: center;
+    font-size: 12px;
+}
+.down ul{
+    padding: 0;
+    margin: 0;
+}
+.down ul li a{
+    float: left;
+    color: #2a2a2a;
+    width: 30px;
+    height: 23px;
+    margin-left:1px;
+    padding-top: 7px;
+    border-left: 1px solid #ddd;
+    
+    
+}
+.down ul li a:hover{
+    background-color: #ff6900;
+    color:
+     white;
+}
+
+/* .down ul li a{
+    display: block;
+    margin-top: 7px;
+    color: #2a2a2a; 
+} */
+
+.down ul li:first-child a{
+    width: 60px;
+    height: 23px;
+}
+.down ul li:last-child a{
+    width: 60px;
+    height: 23px;
+}
+.down .down_36{
+    float: left;
+    width: 50px;
+    height: 30px;
+}
+.down .down_36 p{
+    margin: 0 auto;
+    margin-top: 7px;
+}
+
+/*--------------------------------*/
+.hr{
+    margin: 35px;
+
+}
+/*--------------------------------*/
+.fooder{
+    height: 113px;
+    width: 100%;
+    background-color: #3b3b3b;
+    margin-top: 25px;
+}
+.fbox{
+    width: 1000px;
+    height: 73px;
+    margin-left: 220px;
+    padding-top: 20px;
+}
+.fbox .div{
+    width: 500px;
+    height: 73px;
+    float: left;
+}
+.fbox .div .p1{
+    font-size: 14px;
+    color: #a1a3ab;
+    line-height: 29px;
+    margin: 0;
+}
+.fbox .div .p2{
+    font-size: 11px;
+    color: #a1a3ab;
+    line-height: 26px;
+    margin: 0;
+}
+.fbox .div a{
+    display: block;
+    float: right;
+    margin-left: 15px;
+    position: relative;
+}
+.er{
+    position: absolute;
+    bottom: 42px;
+    right: -56px;
+    opacity: 0;
+}
+/* .fbox .div ul li{
+    opacity: 1;
+} */
+.fbox .div ul li a:hover .er{
+    opacity: 1;
+    /* right: 143px; */
+}
